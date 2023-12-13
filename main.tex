@@ -1,0 +1,110 @@
+%-------------------------------------------------------------------------------
+% LATEX TEMPLATE ARTIKEL
+%-------------------------------------------------------------------------------
+% Dit template is voor gebruik door studenten van de de bacheloropleiding 
+% Informatica van de Universiteit van Amsterdam.
+% Voor informatie over schrijfvaardigheden, zie 
+% https://practicumav.nl/schrijven/index.html
+%
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[dutch]{babel}
+\usepackage[style=authoryear-comp]{biblatex}
+\addbibresource{references.bib}
+\usepackage{amssymb}
+\usepackage{ upgreek }
+\usepackage{ tipa }
+\usepackage{ amssymb }
+
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL, HEADER EN FOOTER
+%-------------------------------------------------------------------------------
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
+
+%-------------------------------------------------------------------------------
+%	VOORPAGINA 
+%-------------------------------------------------------------------------------
+\begin{document}
+\textbf{1.} \textit{Voor alle \(x \in \mathcal{A}\): \(P(x) \rightarrow P(x)\)}
+
+
+
+% \section*{} \textit{1. Determine for the following relations whether they have the following properties: reflexivity, symmetry, antisymmetry, or transitivity.} 
+
+% \textbf{a)} \textit{$R_1 = \{(x, y) \in \mathbb{Q}^+ \times \mathbb{Q}^+ \mid \exists n \in \mathbb{N}^+((x \leq n \leq y) \lor (y \leq n \leq x))\}$} \\
+% Symetric and reflexive \\
+
+
+% \textbf{b)} \textit{$R_2 = \{(A, B) \in \mathcal{P}(\mathbb{N}^+) \times \mathcal{P}(\mathbb{N}^+) \mid \sum{x\in A}x\geq\sum{x\in B}x\}$}
+% \\
+% Symetric,
+
+% \section*{} \textit{2. Compute the transitive closure of $R = \{(0, 1), (1, 3), (2, 4), (1, 4), (4, 3), (6, 5), (4, 6)\}$.} \\
+% $R' = \{(0,1),(0,3),(0,4),(0,5),(0,6),(1,4),(1,3),(1,5),(1,6),(2,3),(2,5),(2,6),(2,4),(4,6),(4,3),(4,5),(6,5)\}$
+
+% \section*{} \textit{3. Consider for every $n \in \mathbb{N}^+$ the set $S_n = \{\phi \mid \phi \text{ is a well-formed propositional logic formula over the propositions } p_1, \ldots, p_n\}.$ Then we define the relation $R_n$ on $S_n$ as $R_n = \{(\varphi, \psi) \in S_n \times S_n \mid \phi \leftrightarrow \psi$ is a tautology\}.} 
+
+
+% \textbf{a)} \textit{For which $n$ is $S_n$ finite or infinite? And why?} 
+% \\
+% \textit{The set $S_n$ is infinit, because It first start with p1 (value 1) and pn (value n) with $p_1, \ldots, p_n$. This makes this set infinit }
+
+ 
+% \textbf{b)} \textit{Prove that $R_n$ is an equivalence relation for every $n$.} 
+
+% % \\To prove that  $R_n$ is an equivalence relation we need to show that it contains reflexivity, symmetry, and transitivity.
+% % \textit{We consider that we have  $S_n$  \upphi \leftrightarrow  \upphi and this is tautology, therefore we can say (\upphi,\upphi) \textepsilon is reflexive} 
+% % \subsection*{}
+% % \textit{\\Symmetry: We can say (\upphi,\psi) \textepsilon  $R_n$, but also we can say (\psi,\upphi) \textepsilon$R_n$,
+% % thus for all \upphi,\psi \textepsilon $R_n$ }
+% % \\
+% % \textit{Transitivity:  We can say (\upphi,\psi) \textepsilon  $R_n$ and we can say (\psi,\mathcal{X}) }
+% % \\
+% % \textit{This means: \upphi \leftrightarrow \psi and \psi \leftrightarrow \mathcal{X}, 
+% % according to transitive properties we can say \upphi \leftrightarrow \mathcal{X}}
+% To prove that \(R_n\) is an equivalence relation, we need to show that it contains reflexivity, symmetry, and transitivity.
+
+% \textit{Reflexive: We consider that we have } \(S_n\) \(\phi \leftrightarrow \phi\) and this is a tautology. Therefore, we can say \((\phi, \phi) \in R_n\) is reflexive.
+
+
+% \textit{Symmetry: We can say } \((\phi, \psi) \in R_n\), but also we can say \((\psi, \phi) \in R_n\),
+% thus for all \(\phi, \psi \in R_n\).
+
+% \textit{Transitivity: We can say } \((\phi, \psi) \in R_n\) and we can say \((\psi, \mathcal{X}) \in R_n\).
+
+% \textit{This means: } \(\phi \leftrightarrow \psi\) and \(\psi \leftrightarrow \mathcal{X}\),
+% according to the transitive properties, we can say \(\phi \leftrightarrow \mathcal{X}\), therefore this is transitive.
+
+% \textbf{c)} \textit{Provide one representative for every equivalence class of $S_1$.} 
+% \\
+% \textit{We can say that R is the quivalance relation such that \phi= $p_1$ or the negated of this: \phi= \neg
+% $p_1$, thus the equivalence classes is: [$p_1$]=\{$p_1$,\neg $p_1$ }\}
+
+% \\
+% \textbf{d)} \textit{How many equivalence classes does $p_1$ have?} 
+% \\
+% \textit{$S_n has $2^n$ equivalence classes, because of the propositions $p_1$,$p_2$......,$p_n$. We can say there are n propositions, because of this there are $2^n$  equivalence classes  $}
+
+% \section*{} \textit{4) Show that $(\mathbb{R}, \leq)$ is not well-ordered.} 
+% \textit{If we take two elements, for example \(a, b \in \mathbb{R}\), then \(a \leq b\) and \(b \leq a\). 
+% \\
+% Thus, we can say that two real numbers are comparable, and now we can say that this is a totally ordered set. However, we need to check the second condition for the set to be a well-ordered set. We know that \(\mathbb{R}\) does not have a least element, because the set is infinite. Thus, the set is not well-ordered.}
+% \\
+% Every finit set is well ordered, because it has a least element. 
+
+% We need to show that $(\mathbb{R}, \leq)$ is not well-ordered. This subset from \mathbb{R} is non empty
+% and has every number that contains a set of real numbers. 
+
+% We know that there is not a least element for \mathbb{R} that is \leq relation.
+
+% If we assume that there is always a smaller number. Than we can assume that there is always a smaller number. Thus we can say a\leqb
+
+% \section*{} \textit{Let $R$ be an equivalence relation on the set $A$. Prove that if $[a]_R \cap [b]_R \neq \emptyset$, then $aRb$.}
+%-------------------------------------------------------------------------------
+\end{document}
